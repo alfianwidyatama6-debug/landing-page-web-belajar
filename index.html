@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexGen Academy | Masa Depan Belajar</title>
+    <title>NexGen Academy | Kuasai Masa Depan Digital</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,25 +22,30 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">NexGen<span class="dot">.</span></a>
+            
             <ul class="nav-links">
-                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#home">Beranda</a></li>
                 <li><a href="#program">Program</a></li>
                 <li><a href="#mentor">Mentor</a></li>
             </ul>
-            <a href="login.html" class="btn btn-primary">Masuk Akun</a>
+
+            <div class="nav-auth">
+                <a href="login.html" class="btn btn-outline">Masuk</a>
+                <a href="register.html" class="btn btn-primary">Daftar</a>
+            </div>
         </div>
     </nav>
 
     <section id="home" class="hero">
         <div class="container hero-container">
             <div class="hero-content fade-in-up">
-                <span class="badge">🚀 Platform Belajar #1</span>
-                <h1>Kuasai Skill Digital <br> <span class="text-gradient">Tanpa Batas</span></h1>
-                <p>Bergabunglah dengan ekosistem belajar paling interaktif. Kurikulum berbasis industri, mentor ahli, dan komunitas global.</p>
+                <span class="badge">🚀 Platform Belajar Digital #1</span>
+                <h1>Kuasai Skill <br> <span class="text-gradient">Masa Depan</span></h1>
+                <p>Ekosistem belajar paling interaktif dengan kurikulum standar industri Silicon Valley, mentor ahli, dan komunitas global.</p>
                 
                 <div class="hero-buttons">
-                    <a href="register.html" class="btn btn-primary">Mulai Gratis</a>
-                    <a href="#program" class="btn btn-outline">Lihat Program</a>
+                    <a href="register.html" class="btn btn-primary">Mulai Belajar Sekarang</a>
+                    <a href="#program" class="btn btn-outline">Lihat Kurikulum</a>
                 </div>
                 
                 <div class="stats-row">
@@ -52,17 +58,20 @@
             <div class="hero-visual fade-in-right">
                 <div class="glass-card card-main tilt-element">
                     <div class="card-header">
-                        <div class="circle red"></div><div class="circle yellow"></div><div class="circle green"></div>
+                        <div class="circle red"></div>
+                        <div class="circle yellow"></div>
+                        <div class="circle green"></div>
                     </div>
                     <div class="code-block">
-                        <p><span class="kwd">function</span> <span class="func">learnFuture</span>() {</p>
-                        <p class="indent">  return <span class="str">"Success"</span>;</p>
+                        <p><span class="kwd">function</span> <span class="func">createSuccess</span>() {</p>
+                        <p class="indent">  <span class="kwd">const</span> skill = <span class="str">"NexGen"</span>;</p>
+                        <p class="indent">  <span class="kwd">return</span> <span class="func">`Scale up ${skill}`</span>;</p>
                         <p>}</p>
                     </div>
                 </div>
                 <div class="glass-card card-float-1 tilt-element">
-                    <span>🔥 Trending</span>
-                    <h4>UI/UX Design</h4>
+                    <span>🔥 Sedang Tren</span>
+                    <h4>AI Engineer</h4>
                 </div>
             </div>
         </div>
@@ -71,9 +80,9 @@
     <section id="program" class="features">
         <div class="container">
             <div class="section-header fade-in-up">
-                <span class="badge">Eksplorasi Ilmu</span>
-                <h2>Program Belajar Unggulan</h2>
-                <p>Pilih jalur karirmu dan kuasai teknologinya dari nol hingga siap kerja.</p>
+                <span class="badge">Program</span>
+                <h2>Pilih Jalur Karirmu</h2>
+                <p>Kurikulum yang dirancang untuk membantumu dari pemula hingga profesional.</p>
             </div>
             
             <div class="grid-cards">
@@ -81,73 +90,71 @@
                     <div class="course-tag">Populer</div>
                     <div class="icon-box">🌐</div>
                     <h3>Fullstack Web</h3>
-                    <p>Kuasai HTML, CSS, JavaScript, React, dan Node.js untuk aplikasi skala besar.</p>
+                    <p>Membangun web modern dengan React.js, Node.js, dan database skala besar.</p>
                     <ul class="course-details">
-                        <li>✅ 120+ Video Materi</li>
-                        <li>✅ 15 Project Portofolio</li>
+                        <li>✅ 15 Proyek Real-world</li>
+                        <li>✅ Sertifikat Kompetensi</li>
                     </ul>
                 </div>
 
                 <div class="feature-card tilt-element fade-in-up delay-100">
                     <div class="icon-box">🎨</div>
                     <h3>UI/UX Design</h3>
-                    <p>Belajar riset pengguna, Figma, prototyping, hingga desain sistem modern.</p>
+                    <p>Riset pengguna, pembuatan wireframe, hingga desain visual tingkat tinggi dengan Figma.</p>
                     <ul class="course-details">
-                        <li>✅ Case Study Research</li>
-                        <li>✅ Sertifikat Kompetensi</li>
+                        <li>✅ Portofolio Design</li>
+                        <li>✅ Mentoring 1-on-1</li>
                     </ul>
                 </div>
 
                 <div class="feature-card tilt-element fade-in-up delay-200">
                     <div class="icon-box">📊</div>
                     <h3>Data Science</h3>
-                    <p>Olah data menjadi informasi berharga dengan Python dan Machine Learning.</p>
+                    <p>Analisis big data, machine learning, dan visualisasi data menggunakan Python.</p>
                     <ul class="course-details">
                         <li>✅ Analisis Big Data</li>
-                        <li>✅ Real-world Dataset</li>
+                        <li>✅ Akses Dataset Premium</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="mentor" class="features">
+    <section id="mentor" class="features" style="padding-top: 0;">
         <div class="container">
             <div class="section-header fade-in-up">
-                <span class="badge">Para Ahli</span>
-                <h2>Belajar dari Praktisi</h2>
-                <p>Dibimbing oleh senior engineer dari perusahaan teknologi ternama.</p>
+                <span class="badge">Para Expert</span>
+                <h2>Belajar dari yang Terbaik</h2>
+                <p>Mentor kami adalah praktisi dari perusahaan teknologi top dunia.</p>
             </div>
 
             <div class="grid-cards">
                 <div class="mentor-card fade-in-up">
                     <div class="mentor-img-placeholder">👨‍💻</div>
                     <h4>Alex Chandra</h4>
-                    <span>Senior Dev @ Google</span>
-                    <p>"Fokus saya membantu kalian memahami arsitektur kode yang scalable."</p>
+                    <span>Software Engineer @ Google</span>
+                    <p>"Fokus saya membantu kalian memahami arsitektur kode yang bersih."</p>
                 </div>
 
                 <div class="mentor-card fade-in-up delay-100">
                     <div class="mentor-img-placeholder">👩‍🎨</div>
                     <h4>Sarah Jenkins</h4>
-                    <span>UX Lead @ Meta</span>
-                    <p>"Desain bukan soal estetika saja, tapi tentang menyelesaikan masalah pengguna."</p>
+                    <span>Lead UX @ Meta</span>
+                    <p>"Desain adalah tentang menyelesaikan masalah nyata bagi pengguna."</p>
                 </div>
 
                 <div class="mentor-card fade-in-up delay-200">
                     <div class="mentor-img-placeholder">👨‍🔬</div>
                     <h4>Dr. Rama Putra</h4>
                     <span>AI Specialist @ OpenAI</span>
-                    <p>"Masa depan adalah data. Mari bangun AI yang bermanfaat bagi manusia."</p>
+                    <p>"Masa depan adalah AI. Mari bangun kecerdasan yang bermanfaat."</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 NexGen Academy. All rights reserved.</p>
-        </div>
+    <footer class="container" style="padding: 4rem 2rem; border-top: 1px solid var(--glass-border); text-align: center;">
+        <p style="color: var(--text-gray);">&copy; 2026 NexGen Academy. Dibuat dengan dedikasi untuk masa depan digital.</p>
     </footer>
 
     <script src="script.js"></script>

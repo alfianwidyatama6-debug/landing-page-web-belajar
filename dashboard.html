@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | NexGen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <aside class="sidebar">
+        <h2 style="font-weight:800; margin-bottom:2rem">NexGen<span style="color:var(--secondary)">.</span></h2>
+        <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">🏠 Dashboard</a>
+            <a href="#" class="menu-item">📚 Kursus Saya</a>
+        </nav>
+        <a href="index.html" class="btn-logout" style="color:#ef4444; font-weight:700">Keluar</a>
+    </aside>
+
+    <main class="dashboard-content">
+        <header class="content-header">
+            <h2>Materi Belajar</h2>
+            <div style="background:var(--primary); width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold">JD</div>
+        </header>
+
+        <div class="learning-area">
+            <div class="video-section">
+                <div class="video-placeholder glass-card" id="main-video">
+                    <span style="font-size:1.2rem">▶️ Memutar: Introduction to Web Development</span>
+                </div>
+                <div class="video-info" style="margin-top:1.5rem">
+                    <h3 id="video-title">1. Introduction to Web Development</h3>
+                    <p style="color:var(--text-gray)">Materi dasar mengenai ekosistem pengembangan web modern.</p>
+                </div>
+            </div>
+
+            <div class="curriculum">
+                <h4 style="margin-bottom:1rem">Daftar Modul</h4>
+                <div class="module-item active">
+                    <span>01</span>
+                    <div class="module-text"><h4>Introduction to Web</h4><p>10 Menit</p></div>
+                </div>
+                <div class="module-item">
+                    <span>02</span>
+                    <div class="module-text"><h4>Setup Environment</h4><p>15 Menit</p></div>
+                </div>
+                <div class="module-item">
+                    <span>🔒</span>
+                    <div class="module-text"><h4>Advanced CSS Layout</h4><p>30 Menit</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

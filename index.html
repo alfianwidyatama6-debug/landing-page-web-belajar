@@ -10,6 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Perbaikan instan jika tombol tidak bisa diklik */
+        .navbar { z-index: 9999 !important; }
+        .hero-buttons { position: relative; z-index: 10; }
+        .nav-container a, .hero-buttons a { cursor: pointer !important; }
+    </style>
 </head>
 <body>
 
@@ -22,11 +28,13 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">NexGen<span class="dot">.</span></a>
+            
             <ul class="nav-links">
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="#program">Program</a></li>
                 <li><a href="#mentor">Mentor</a></li>
             </ul>
+
             <a href="login.html" class="btn btn-primary">Masuk Akun</a>
         </div>
     </nav>
@@ -37,6 +45,7 @@
                 <span class="badge">🚀 Platform Belajar #1</span>
                 <h1>Kuasai Skill Digital <br> <span class="text-gradient">Tanpa Batas</span></h1>
                 <p>Bergabunglah dengan ekosistem belajar paling interaktif. Kurikulum berbasis industri, mentor ahli, dan komunitas global.</p>
+                
                 <div class="hero-buttons">
                     <a href="register.html" class="btn btn-primary">Mulai Gratis</a>
                     <a href="#program" class="btn btn-outline">Lihat Program</a>

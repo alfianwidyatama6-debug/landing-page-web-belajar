@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,13 +21,11 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">NexGen<span class="dot">.</span></a>
-            
             <ul class="nav-links">
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="#program">Program</a></li>
                 <li><a href="#mentor">Mentor</a></li>
             </ul>
-
             <a href="login.html" class="btn btn-primary">Masuk Akun</a>
         </div>
     </nav>
@@ -46,27 +43,16 @@
                 </div>
                 
                 <div class="stats-row">
-                    <div class="stat-item">
-                        <h3>10k+</h3>
-                        <p>Siswa</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>500+</h3>
-                        <p>Kursus</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>4.9</h3>
-                        <p>Rating</p>
-                    </div>
+                    <div class="stat-item"><h3>10k+</h3><p>Siswa</p></div>
+                    <div class="stat-item"><h3>500+</h3><p>Kursus</p></div>
+                    <div class="stat-item"><h3>4.9</h3><p>Rating</p></div>
                 </div>
             </div>
 
             <div class="hero-visual fade-in-right">
                 <div class="glass-card card-main tilt-element">
                     <div class="card-header">
-                        <div class="circle red"></div>
-                        <div class="circle yellow"></div>
-                        <div class="circle green"></div>
+                        <div class="circle red"></div><div class="circle yellow"></div><div class="circle green"></div>
                     </div>
                     <div class="code-block">
                         <p><span class="kwd">function</span> <span class="func">learnFuture</span>() {</p>
@@ -85,41 +71,81 @@
     <section id="program" class="features">
         <div class="container">
             <div class="section-header fade-in-up">
-                <h2>Fitur Unggulan</h2>
-                <p>Didesain untuk pengalaman belajar yang imersif.</p>
+                <span class="badge">Eksplorasi Ilmu</span>
+                <h2>Program Belajar Unggulan</h2>
+                <p>Pilih jalur karirmu dan kuasai teknologinya dari nol hingga siap kerja.</p>
             </div>
             
             <div class="grid-cards">
                 <div class="feature-card tilt-element fade-in-up">
-                    <div class="icon-box">⚛️</div>
-                    <h3>Kurikulum Modern</h3>
-                    <p>Materi selalu diperbarui mengikuti standar teknologi Silicon Valley terbaru.</p>
+                    <div class="course-tag">Populer</div>
+                    <div class="icon-box">🌐</div>
+                    <h3>Fullstack Web</h3>
+                    <p>Kuasai HTML, CSS, JavaScript, React, dan Node.js untuk aplikasi skala besar.</p>
+                    <ul class="course-details">
+                        <li>✅ 120+ Video Materi</li>
+                        <li>✅ 15 Project Portofolio</li>
+                    </ul>
                 </div>
+
                 <div class="feature-card tilt-element fade-in-up delay-100">
-                    <div class="icon-box">🎓</div>
-                    <h3>Sertifikat Global</h3>
-                    <p>Validasi kemampuanmu dengan sertifikat yang diakui perusahaan multinasional.</p>
+                    <div class="icon-box">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Belajar riset pengguna, Figma, prototyping, hingga desain sistem modern.</p>
+                    <ul class="course-details">
+                        <li>✅ Case Study Research</li>
+                        <li>✅ Sertifikat Kompetensi</li>
+                    </ul>
                 </div>
+
                 <div class="feature-card tilt-element fade-in-up delay-200">
-                    <div class="icon-box">🤝</div>
-                    <h3>Mentoring 1-on-1</h3>
-                    <p>Bukan sekadar video. Dapatkan bimbingan langsung dari praktisi ahli.</p>
+                    <div class="icon-box">📊</div>
+                    <h3>Data Science</h3>
+                    <p>Olah data menjadi informasi berharga dengan Python dan Machine Learning.</p>
+                    <ul class="course-details">
+                        <li>✅ Analisis Big Data</li>
+                        <li>✅ Real-world Dataset</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="mentor" class="features" style="padding-top: 0;">
+    <section id="mentor" class="features">
         <div class="container">
             <div class="section-header fade-in-up">
-                <h2>Belajar dari Ahlinya</h2>
-                <p>Mentor kami berasal dari Tech Company ternama di seluruh dunia.</p>
+                <span class="badge">Para Ahli</span>
+                <h2>Belajar dari Praktisi</h2>
+                <p>Dibimbing oleh senior engineer dari perusahaan teknologi ternama.</p>
             </div>
+
+            <div class="grid-cards">
+                <div class="mentor-card fade-in-up">
+                    <div class="mentor-img-placeholder">👨‍💻</div>
+                    <h4>Alex Chandra</h4>
+                    <span>Senior Dev @ Google</span>
+                    <p>"Fokus saya membantu kalian memahami arsitektur kode yang scalable."</p>
+                </div>
+
+                <div class="mentor-card fade-in-up delay-100">
+                    <div class="mentor-img-placeholder">👩‍🎨</div>
+                    <h4>Sarah Jenkins</h4>
+                    <span>UX Lead @ Meta</span>
+                    <p>"Desain bukan soal estetika saja, tapi tentang menyelesaikan masalah pengguna."</p>
+                </div>
+
+                <div class="mentor-card fade-in-up delay-200">
+                    <div class="mentor-img-placeholder">👨‍🔬</div>
+                    <h4>Dr. Rama Putra</h4>
+                    <span>AI Specialist @ OpenAI</span>
+                    <p>"Masa depan adalah data. Mari bangun AI yang bermanfaat bagi manusia."</p>
+                </div>
             </div>
+        </div>
     </section>
 
     <footer>
-        <div class="container footer-content">
+        <div class="container">
             <p>&copy; 2026 NexGen Academy. All rights reserved.</p>
         </div>
     </footer>
